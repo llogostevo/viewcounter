@@ -14,7 +14,7 @@ export default async function Home() {
   console.log(data.stargazers_count)
   return (
     <main >
-     <p>{data.stargazers_count}</p>
+     <p>⭐{data.stargazers_count}</p>
     </main>
   )
 }
